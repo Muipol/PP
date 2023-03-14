@@ -19,7 +19,7 @@ public class Util {
         }
         try {
             Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            //System.out.println("Подключене к БД успешно");
+            System.out.println("Подключене к БД успешно");
             return connection;
         } catch (SQLException e) {
             System.out.println("Не удалось подключиться к БД");
